@@ -21,6 +21,14 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>4.0.1</version>
+			<scope>provided</scope>
+		</dependency>
+
 		<!--
 		https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
 		<dependency>
@@ -78,6 +86,11 @@
 		</dependency>
 
 
+		<dependency>
+			<groupId>com.jisu</groupId>
+			<artifactId>NoteTaker</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>banking</finalName>

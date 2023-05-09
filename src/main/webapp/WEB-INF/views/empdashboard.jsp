@@ -4,11 +4,7 @@
 <%@page import="Entities.Employee"%>
 
 
-<%
-if (session != null && session.getAttribute("emp") == null) {
-	response.sendRedirect("/");
-}
-%>
+
 
 
 

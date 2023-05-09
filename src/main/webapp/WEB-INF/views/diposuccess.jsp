@@ -120,7 +120,7 @@
     <script>
       // Wait for 7 seconds (7000 milliseconds) before redirecting
       setTimeout(function () {
-        window.location.href = "/banking/employee";
+        window.location.href = "/banking/empdashboard";
       },5000);
     </script>
   </body>

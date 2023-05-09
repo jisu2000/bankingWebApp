@@ -4,13 +4,7 @@
 <%@page import="Entities.User"%>
 <html>
 
-<%
-if(session.getAttribute("user")==null)
-{
-	response.sendRedirect("userlogin");
-}
 
-%>
 
 
 <head>
