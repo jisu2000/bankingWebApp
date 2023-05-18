@@ -3,6 +3,7 @@ package Controller;
 import java.io.IOException;
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
@@ -367,6 +368,8 @@ public class EmpController {
 		}
 		
 		List<Statement> list=this.servicest.getAllstatement(id);
+        Collections.sort(list, (s1, s2) -> Integer.compare(s2.getStId(), s1.getStId()));
+
 		model.addAttribute("statement",list);
 		model.addAttribute("user", user);
 		
@@ -380,6 +383,8 @@ public class EmpController {
 	{
 		User user=this.service.getUser(id);
 		List<Statement> list=this.servicest.getAllstatement(id);
+	
+        Collections.sort(list, (s1, s2) -> Integer.compare(s2.getStId(), s1.getStId()));
 		model.addAttribute("statement",list);
 		model.addAttribute("user", user);
 		

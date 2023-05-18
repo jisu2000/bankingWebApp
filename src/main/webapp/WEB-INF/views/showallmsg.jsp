@@ -14,7 +14,7 @@
   </head>
   <body style="background-color: black;">
     <div class="container text-center">
-    <h1 style="color: green;">All Messages</h1>
+    <h1 style="color: orange;">All Messages</h1>
     </div>  
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -29,7 +29,7 @@
 <div class="container">
     <table class="table table-dark">
         <thead>
-          <tr>
+          <tr style="color: green;">
             <th scope="col">Name</th>
             <th scope="col">Email</th>
             <th scope="col">Subject</th>
@@ -44,10 +44,10 @@
         {
         %>
           <tr>
-          	<td><%=m.getName() %></td>
-          	<td><%=m.getEmail() %></td>
-          	<td><%=m.getSubject() %></td>
-          	<td><%=m.getMsg() %></td>
+          	<td style="color: blue;"><%=m.getName() %></td>
+          	<td style="color: blue;"><%=m.getEmail() %></td>
+          	<td style="color: blue;"><%=m.getSubject() %></td>
+          	<td style="color: blue;"><%=m.getMsg() %></td>
           	<td><a href="msgdel/<%=m.getMsgId()%>"class="btn btn-outline-danger">Delete</a></td>
           
            
