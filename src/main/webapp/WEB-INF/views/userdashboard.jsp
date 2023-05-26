@@ -2,6 +2,9 @@
 <%@page import="java.util.Base64"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="Entities.User"%>
+
+<%@ page language="java" contentType="text/html; charset=US-ASCII"
+    pageEncoding="US-ASCII" errorPage="error.jsp"%>
 <html>
 
 

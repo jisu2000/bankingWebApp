@@ -1,5 +1,8 @@
 <!doctype html>
 <%@page import="Entities.Manager"%>
+
+<%@ page language="java" contentType="text/html; charset=US-ASCII"
+    pageEncoding="US-ASCII" errorPage="error.jsp"%>
 <html lang="en">
 
 <head>
