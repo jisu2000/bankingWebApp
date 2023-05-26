@@ -39,6 +39,14 @@ public class AdminController {
 	@Autowired
 	private MsgService msgservice;
 
+
+
+	@RequestMapping("/")
+	public String indexMap()
+	{
+		return "index";
+	}
+
 	@RequestMapping("/admin")
 	public String adminController()
 	{

@@ -44,11 +44,11 @@
         {
         %>
           <tr>
-          	<td style="color: blue;"><%=m.getName() %></td>
-          	<td style="color: blue;"><%=m.getEmail() %></td>
-          	<td style="color: blue;"><%=m.getSubject() %></td>
-          	<td style="color: blue;"><%=m.getMsg() %></td>
-          	<td><a href="msgdel/<%=m.getMsgId()%>"class="btn btn-outline-danger">Delete</a></td>
+          	<td style="color: red;"><%=m.getName() %></td>
+          	<td style="color: red;"><%=m.getEmail() %></td>
+          	<td style="color: red;"><%=m.getSubject() %></td>
+          	<td style="color: red;"><%=m.getMsg() %></td>
+          	<td><a href="msgdel/<%=m.getMsgId()%>"class="btn btn-outline-info">Delete</a></td>
           
            
           </tr>

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -13,8 +14,9 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="fonts/icomoon/style.css" />
+	
+	<link href="css/style.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/jquery-ui.css" />
     <link rel="stylesheet" href="css/owl.carousel.min.css" />
     <link rel="stylesheet" href="css/owl.theme.default.min.css" />
